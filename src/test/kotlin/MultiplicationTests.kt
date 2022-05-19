@@ -3,7 +3,7 @@ import org.junit.jupiter.api.Test
 import org.openqa.selenium.By
 import kotlin.test.assertEquals
 
-class TestApp : AppiumSetup() {
+class MultiplicationTests : AppiumSetup() {
     @Test
     fun `Simple multiplication give correct result`() {
         driver.findElement(By.id(DIGIT_5)).click()
