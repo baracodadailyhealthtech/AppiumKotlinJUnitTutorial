@@ -1,4 +1,4 @@
-# Tutorial Automatic testing using Appium, JUnit5 and Kotlin
+# Automatic testing using Appium, JUnit5 and Kotlin
 
 ## Requirement
 
