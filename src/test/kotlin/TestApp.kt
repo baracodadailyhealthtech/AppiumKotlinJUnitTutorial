@@ -5,7 +5,7 @@ import kotlin.test.assertEquals
 
 class TestApp : AppiumSetup() {
     @Test
-    fun `Simple multiplication`() {
+    fun `Simple multiplication give correct result`() {
         driver.findElement(By.id(DIGIT_5)).click()
         driver.findElement(By.id(MULTIPLICATION)).click()
         driver.findElement(By.id(DIGIT_8)).click()
