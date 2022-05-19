@@ -14,7 +14,7 @@ open class AppiumSetup {
     companion object {
         lateinit var driver: AppiumDriver<MobileElement>
         private val caps = DesiredCapabilities()
-        private const val activityName: String = "com.android.calculator2.Calculator"
+        private const val activityName = "com.android.calculator2.Calculator"
         private const val appPackage = "com.google.android.calculator"
         private const val automationName = "UiAutomator2"
         private const val platformName = "Android"

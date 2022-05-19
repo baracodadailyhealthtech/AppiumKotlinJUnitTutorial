@@ -9,7 +9,7 @@
 ## How to launch the test
 
 ```
-gradle test --tests "TestApp.Simple multiplication expect correct result"
+./gradlew test
 ```
 
 ## Reference

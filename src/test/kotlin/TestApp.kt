@@ -10,7 +10,7 @@ class TestApp : AppiumSetup() {
         driver.findElement(By.id(MULTIPLICATION)).click()
         driver.findElement(By.id(DIGIT_8)).click()
         driver.findElement(By.id(EQUAL)).click()
-        val result: String = driver.findElement(By.className("android.widget.TextView")).text
+        val result = driver.findElement(By.className("android.widget.TextView")).text
         assertEquals("40", result)
     }
 }
