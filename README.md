@@ -3,7 +3,7 @@
 ## Requirement
 
 * Your Android device is connected with adb
-* Your Android device has the Google Calculator.
+* Your Android device has the Google Calculator application.
 * An Appium server is running.
 
 ## How to launch the test
