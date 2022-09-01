@@ -13,4 +13,4 @@
 ```
 
 ## Reference
-[TODO: Add link to the medium article]
+Read the article here : https://medium.com/p/4e57cac6e7df
